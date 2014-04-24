@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/print.css" rel="stylesheet" type="text/css" media="print">
+<link href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/kmhportfolio_styles.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div class="container">
+ <div id="apDiv1"><img src="../images/signature_melanylane-02.png" width="211" height="92" alt="Kelie Hensley"></div>
+<header></header>
+<!--navigation bar code starts here-->
+<nav1>
+  <p><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/index.html#home">home</a> <a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/index.html#folio">portfolio</a>  <a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/index.html#about">about</a></p>
+</nav1>  
+<!--navigation bar code ends here-->
+
+  <div class="sidebar1">
+    <nav>
+      <ul>
+        <li font-color="#7D534E">PORTFOLIO PIECES</li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_rtrfa1.html">raise the roof for audrey</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_carpepisces.html">carpe pisces</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_3DS.html">3ds alabama</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_pwcb.html">pwcb</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_onespot.html">one spot</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_getagrip.html">get a grip</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_caps.html">caps</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_allyou.html">all you</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_coplenshower.html">coplen shower</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_mosaic.html">mosaic</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_tsunami.html">tsunami tshower</a></li>
+        <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_bamaswim.html">bama swim</a></li>
+         <li><a href="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/folio_kentuck.html">kentuck</a></li>
+        
+      </ul>
+    </nav>
+    <aside>
+    
+  <p><!-- end .sidebar1 --></p></aside></div>
+  <article class="content">
+    <h1>
+  <!-- end .content --></h1>
+  <section> 
+  </section>
+  <!-- TemplateBeginEditable name="Main Content" -->
+  <section><img name="" src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_RO.png" width="595" height="455" alt="PWCB_vert_ro">
+    <p>    
+    <table width="600" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="178"><p class="details2">iterations</p>
+          <nav2>
+            <ul>
+              <li><a href="#"><img src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_AO.png" alt="vert_AO" height="50"/></a></li>
+              <li><a href="#"><img src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_AO.png" alt="horiz_AO" height="50"/></a></li>
+              <li><a href="#"><img src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_AO.png" alt="horiz_RO" height="50"/></a></li>
+              <li><a href="#"><img src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_RO_alumni.png" alt="alumni_RO" height="50"/></a></li>
+              <li><a href="#"><img src="file:///Macintosh HD/Users/kellyhensley/Documents/KMH_Portgolio2014 copy/images/PWCB_logo_vert_AO_alumni.png" alt="alumni_AO" height="50"/></a></li>
+            </ul>
+          </nav2></td>
+        <td width="422" valign="top"><p class="details">details</p>
+          <p> Professional Women in Communication and Business (PWCB) is an organization at the University of Alabama. PWCB is devoted to developing successful leaders by encouraging networking, helping students devleop business etiquette and streamlning women's understanding of how to be engaged leaders.</p>
+          <p class="details">concept</p>
+          <p></p></td>
+      </tr>
+    </table>
+    <p></p>
+  </section>
+  <!-- TemplateEndEditable --></article>
+  <footer>
+    <p>copyright 2014 kellie hensley | email: kmhensley7@gmail.com</p>
+  </footer>
+
+<!-- end .container --></div>
+
+</body>
+</html>
