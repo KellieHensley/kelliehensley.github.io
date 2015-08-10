@@ -1,112 +1,312 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
-<link href="portfolio_styles2.css" rel="stylesheet" type="text/css" />
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-<body>
-<div class="container">
-<!--navigation bar code starts here-->
-<nav>
-  <p><a href="#home">home</a> <a href="#folio">portfolio</a>  <a href="#about">about</a></p>
-</nav> 
-<!--navigation bar code ends here-->
+    <title>Kellie Hensley Design</title>
 
-<!--Header code starts here-->
-<section class="header"><a name="Home" id="Home"></a><img src="images/KMH_Window.png" width="950" height="312" alt="header" /> </section>
-<!--Header code ends here-->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-<!--quick links start here-->
-<section class="quicklinks">
-<p>&nbsp;</p>
-<p>
-<table width="450" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img src="images/kmh_weblogo_2014-05.png" width="98" height="92" alt="Featured" /></td>
-    <td><img src="images/kmh_weblogo_2014-06.png" width="98" height="92" alt="Work With Me" /></td>
-    <td><img src="images/kmh_weblogo_2014-08.png" width="98" height="92" alt="About Me" /></td>
-  </tr>
-  <tr>
-    <td><p>&nbsp;</p><p>FEATURED</p></td>
-    <td><p>&nbsp;</p><p>WORK WITH ME</p></td>
-    <td><p>&nbsp;</p><p>ABOUT ME</p></td>
-  </tr>
-</table>
-</p>
-</section>
-<!--quick links end here-->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
-<!--Portfolio code starts here-->
-<div class="portfolio">
-<p>&nbsp;</p>
-<h1><a name="folio" id="folio"></a>PORTFOLIO</h1>
-<table width="630" border="0" cellspacing="10">
-  <tr>
-    <td><a href="folio_rtrfa1.html"><img name="RTRFA" src="images/KMH_PortfolioWebsite_2014_RTRFA.png" width="180" height="180
-    " alt="" /></a></td>
-    <td><a href="folio_carpepisces.html"><img name="" src="images/KMH_PortfolioWebsite_2014_CarpePisces.png" width="180" height="180" alt="" /></a></td>
-    <td><a href="folio_3DS.html"><img name="" src="images/KMH_PortfolioWebsite_2014_3DS.png" width="180" height="180" alt="" /></a></td>
-  </tr>
-  <tr>
-    <td><a href="folio_pwcb.html"><img name="" src="images/KMH_PortfolioWebsite_2014_PWCB.png" width="180" height="180" alt="" /></a></td>
-    <td><a href="folio_onespot.html"><img name="" src="images/KMH_PortfolioWebsite_2014_OneSpot.png" width="180" height="180" alt="" /></a></td>
-    <td><a href="folio_getagrip.html"><img name="" src="images/KMH_PortfolioWebsite_2014_Faulkner.png" width="180" height="180" alt="" /></a></td>
-  </tr>
-  <tr>
-    <td><a href="folio_caps.html"><img name="" src="images/KMH_PortfolioWebsite_2014_CAPS.png" width="180" height="180" alt="" /></a></td>
-    <td><a href="folio_allyou.html"><img name="" src="images/KMH_PortfolioWebsite_2014_AllYou.png" width="180" height="180" alt="" /></a></td>
-    <td><a href="folio_coplenshower.html"><img name="" src="images/KMH_PortfolioWebsite_2014_CoplenShower.png" width="180" alt="" /></a></td>
-  </tr>
-  <tr>
-    <td><img name="" src="images/KMH_PortfolioWebsite_2014_IRMAS.png" width="180" height="180" alt="" /></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-</div>
-<!--Portfolio code ends here-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<!--About code starts here-->
-<div class="AboutMe">
-<p>&nbsp;</p>
-<h1><a name="about" id="about"></a>ABOUT ME</h1>
-<p>Meraki is my philosophy on art and life. It is a Greek verb used to describe work done with such soul and creativity that the product is infused with a part of the creator. I'm fueled by this desire to create and innovate, drawing upon experiences both domestic and abroad for inspiration.</p>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Meraki Art</a></h1>
+			<i class="fa fa-times menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#services" class="smoothScroll">Services</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="https://instagram.com/merakiart" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/kelliehensley" target="_blank"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="mailto:kmhensley7@gmail.com"><i class="fa 
+fa-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
 
-<table width="400" border="0" cellspacing="0">
-  <tr>
-    <td><img name="" src="images/email-updates-icon.png" width="50" height="50" alt="email" /></td>
-    <td><img name="" src="images/linkedin-icon.png" width="50" height="50" alt="linked in" /></td>
-    <td><img name="googleplus" src="images/google-plus-icon.png" width="51" height="51" alt="" /></td>
-    <td><img name="facebook" src="images/facebook-icon.png" width="50" height="50" alt="" /></td>
-    <td><img name="pinterest" src="images/pinterest-icon.png" width="50 height="50" alt="" /></td>
-    <td><img name="twitter" src="images/twitter-icon.png" width="50" height="50" alt="" /></td>
-  </tr>
-</table>
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>&nbsp;</h1>
+				</div>
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/headerwrap -->
+	
+	<section id="about" name="about"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 name">
+					<img class="img-responsive" src="assets/img/Kellie_Web_2015.png" width="300">
+					<p>KELLIE HENSLEY</p>
+					<div class="name-label"></div>
+				</div><! --/col-lg-4-->
+				<div class="col-lg-8 name-desc">
+					<h2>GRAPHIC DESIGNER  <br/>
+				  PHOTOGRAPHER &amp; <br/>
+					MARKETING CONSULTANT</h2>
+					<div class="name-zig"></div>
+					
+					<div class="col-md-6">
+						<p>Meraki is my philosophy on art and life. It is a Greek verb used to describe work done with such soul and creativity that the product is infused with a part of the creator. I'm fueled by this desire to create and innovate, drawing upon experiences both domestic and abroad for inspiration.</p>
+<a href="assets/img/resume_20150810.pdf" target="_blank">Download my resume.</a>
+						<p>&nbsp;</p>
+					</div>
+					<div class="col-md-6">
+						<p>&nbsp;</p>
+					</div>
+					
+				</div><! --/col-lg-8-->
+		
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<! -- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+	
+	<! -- PORTFOLIO SECTION -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h1>MY  WORK</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+	
+			<div class="row mt">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port01.png"><img class="img-responsive" src="assets/img/portfolio/port01.png" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port02.jpg"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/img/portfolio/port03.jpg"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+		</div><! --/container -->
+		<div class="container">
+			<div class="row mt centered">
+				<h1>MY DESIGN PROCESS</h1>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-coffee"></i>
+					<h3>The Meeting</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-cogs"></i>
+					<h3>The Ideas</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-heart"></i>
+					<h3>The Product</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				</div>
+				
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/Portfoliowrap -->
 
-<p>&nbsp;</p>
+	<! -- PORTFOLIO SEPARATOR -->
+	<div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>SERVICES</h1>
+					<h3>I'll do all the the work for you</h3>
+					<p>Together we can develop a plan that best fits your needs.</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-star"></i><p>LOGO DESIGN<br/><small>CREATING BRAND IDENTITY</small></p>
+					<p class="text">The logo can serve as the "face" of your brand and quickly convey your core values and purpose.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-file"></i><p>PRINT/DIGITAL MATERIALS<br/><small>COMMUNICATING WITH THE WORLD</small></p>
+					<p class="text">From promotional items and ad designs to magazine layouts and websites, how will you share your message.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-camera"></i><p>PHOTOGRAPHY<br/><small>CAPTURING LIFE'S BIG MOMENTS</small></p>
+					<p class="text">Book a natural light session for personal moments or commercial purposes.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-gear"></i><p>MARKETING CONSULTATION<br/><small>GETTING NOTICED</small></p>
+					<p class="text">Where and when will you share your message.</p>
+				</div>
+			</div><! --/row -->
+			<div class="row mt">
+				
+			</div><! --/row -->
+			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="contact" name="contact"></section>
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+	
+	<div id="contactwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<p>CONTACT ME</p>
+					<p>kmhensley7@gmail.com</p>
+					<p><br/>
+					<br/>
+					</p>
+			
+				</div>
+				
+				<div class="col-lg-6">
+					<form role="form">
+					  <div class="form-group">
+					    <label for="exampleInputName1"> Name</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+					    <label for="exampleInputEmail1">Email</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					    <label for="exampleInputText1">Message</label>
+					    <textarea class="form-control" rows="3"></textarea>
+					  </div>
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			
+			</div><! --/row -->
+		</div><!-- /container -->
+	</div>
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+	<script src="assets/js/main.js"></script>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
 
-</div>
-<!--About code ends here-->
-
-<footer>
-    <p>copyright 2014 kellie hensley | email: kmhensley7@gmail.com</p>
-  </footer>
-  
-</div>
-
-
-</body>
+  </body>
 </html>
